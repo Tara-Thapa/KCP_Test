@@ -1,0 +1,23 @@
+class test
+{
+	int a,b;
+	void setvalue(int x,int y)
+	{
+		a=x;
+		b=y;
+	}
+	void display()
+	{
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+	}
+}
+class testmain
+{
+	public static void main(String args[])
+	{
+		test t1=new test();
+		t1.setvalue(20,10);
+		t1.display();
+	}
+}
